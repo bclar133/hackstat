@@ -1,5 +1,5 @@
 {
-  "name": "Hack Stat \u2014 Golf stats for hackers",
+  "name": "Hack Stat",
   "short_name": "Hack Stat",
   "start_url": "./",
   "display": "standalone",
@@ -27,7 +27,7 @@
   ],
   "id": "./",
   "scope": "./",
-  "description": "Golf stats for hackers. Track rounds, build your eclectic and discover your game.",
+  "description": "Golf scores, round statistics and course eclectics.",
   "categories": [
     "sports",
     "utilities"
