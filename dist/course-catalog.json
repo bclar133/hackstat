@@ -1,0 +1,148 @@
+{
+  "version": 1,
+  "courses": [
+    {
+      "id": "maleny-golf-club",
+      "name": "Maleny Golf Club",
+      "aliases": [
+        "Maleny",
+        "North Maleny",
+        "Maleny Golf"
+      ],
+      "location": "North Maleny, Queensland, Australia",
+      "provider": "catalog",
+      "sourceUrl": "https://18birdies.com/golf-courses/club/334902d0-ff79-11ea-aad9-06780482e2ce/maleny-golf-club",
+      "sourceLabel": "18Birdies published Black tee scorecard \u00b7 Maleny Golf Club guide",
+      "retrievedAt": "2026-10-30",
+      "notes": "Saved web scorecard for the Black / Mountain tees. Check tee names, distances and stroke indexes against today\u2019s card. Course and slope ratings have been left blank because published sources disagree.",
+      "sources": [
+        {
+          "url": "https://www.malenygolfclub.com.au/course-guide",
+          "label": "Official Maleny Golf Club course guide"
+        },
+        {
+          "url": "https://18birdies.com/golf-courses/club/334902d0-ff79-11ea-aad9-06780482e2ce/maleny-golf-club",
+          "label": "18Birdies: Black tee scorecard and stroke indexes"
+        }
+      ],
+      "tees": [
+        {
+          "id": "black",
+          "name": "Mountain / Black",
+          "rating": null,
+          "slope": null,
+          "holes": [
+            {
+              "number": 1,
+              "par": 3,
+              "distance": 136,
+              "si": 13
+            },
+            {
+              "number": 2,
+              "par": 5,
+              "distance": 468,
+              "si": 11
+            },
+            {
+              "number": 3,
+              "par": 4,
+              "distance": 245,
+              "si": 15
+            },
+            {
+              "number": 4,
+              "par": 4,
+              "distance": 324,
+              "si": 2
+            },
+            {
+              "number": 5,
+              "par": 3,
+              "distance": 140,
+              "si": 17
+            },
+            {
+              "number": 6,
+              "par": 4,
+              "distance": 320,
+              "si": 4
+            },
+            {
+              "number": 7,
+              "par": 4,
+              "distance": 296,
+              "si": 14
+            },
+            {
+              "number": 8,
+              "par": 3,
+              "distance": 150,
+              "si": 6
+            },
+            {
+              "number": 9,
+              "par": 5,
+              "distance": 443,
+              "si": 18
+            },
+            {
+              "number": 10,
+              "par": 4,
+              "distance": 373,
+              "si": 9
+            },
+            {
+              "number": 11,
+              "par": 4,
+              "distance": 310,
+              "si": 7
+            },
+            {
+              "number": 12,
+              "par": 3,
+              "distance": 200,
+              "si": 5
+            },
+            {
+              "number": 13,
+              "par": 5,
+              "distance": 437,
+              "si": 16
+            },
+            {
+              "number": 14,
+              "par": 3,
+              "distance": 141,
+              "si": 10
+            },
+            {
+              "number": 15,
+              "par": 4,
+              "distance": 307,
+              "si": 12
+            },
+            {
+              "number": 16,
+              "par": 4,
+              "distance": 321,
+              "si": 8
+            },
+            {
+              "number": 17,
+              "par": 3,
+              "distance": 147,
+              "si": 3
+            },
+            {
+              "number": 18,
+              "par": 4,
+              "distance": 368,
+              "si": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

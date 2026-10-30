@@ -4,6 +4,8 @@
 
 ## Features
 
+- Online course-name autocomplete, tee selection and scorecard autofill where published data is available.
+- A sourced Maleny Black/Mountain 18-hole scorecard, available even if online search is down.
 - Courses and separate tee sets, with 9- or 18-hole scorecards.
 - Hole-by-hole scores, fairways, greens in regulation, putts, penalties, up-and-downs and sand saves.
 - Gross score, manually entered handicaps and nett score.
@@ -43,10 +45,17 @@ Then open http://localhost:8000. Testing from another device on a plain LAN HTTP
 ```sh
 node --check dist/app.js
 node tests/stats.cjs
+node tests/course-lookup.cjs
 ```
 
 The checks cover score totals, nett, weighted percentages, GIR, eagle opportunities, opportunity denominators, eclectic, impossible-score validation, backup validation, CSV safety, view generation and separate local persistence. They do not replace browser or physical-device testing.
 
+## Course search
+
+In **Courses → Add course / tees**, type three or more letters in the course name. Search is debounced and combines a small, clearly labelled saved web-scorecard catalogue with live OpenGolfAPI results. Choose a result, choose the exact tee/rating category, review the populated table, and save. `Male` finds Maleny Golf Club and fills the published Black/Mountain 18-hole card.
+
+OpenGolfAPI currently requires no key for course reads and allows browser CORS requests. Some courses have full hole/tee data; others are directory-only. Missing values are left blank with a clear explanation. Saved courses and existing round snapshots are preserved. This feature searches a structured online golf directory, rather than scraping arbitrary websites or claiming every web result has a complete scorecard. See [ATTRIBUTION.md](ATTRIBUTION.md) for data sources, licensing and the Maleny fallback’s provenance.
+
 ## Branding
 
-`dist/icon.svg` is the editable vector master: a dimpled golf ball with ascending lime statistics bars on a layered emerald background. PNGs are provided at 192 and 512 pixels, with a separate 512-pixel maskable Android asset and a 180-pixel Apple touch icon.
+`dist/brand/hackstat-line-graph.webp` contains the new golf ball combined with two green line graphs. The app uses `icon-line-192.png`, `icon-line-512.png`, `icon-line-maskable-512.png` and `apple-touch-line.png`. The manifest and service-worker cache have been updated so new installs use these assets. Existing installed icons may take time to update through Chrome.
