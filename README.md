@@ -7,6 +7,7 @@
 - Online course-name autocomplete, tee selection and scorecard autofill where published data is available.
 - A sourced Maleny Black/Mountain 18-hole scorecard, available even if online search is down.
 - Courses and separate tee sets, with 9- or 18-hole scorecards.
+- One home club and starred clubs: home first, stars next, then alphabetical, across course cards and selectors. Preferences apply to all saved tee sets at a club and are included in backups.
 - Hole-by-hole scores, fairways, greens in regulation, putts, penalties, up-and-downs and sand saves.
 - Gross score, manually entered handicaps and nett score.
 - Eagle-putt opportunities, scoring trends, weighted percentages and sortable round history.
